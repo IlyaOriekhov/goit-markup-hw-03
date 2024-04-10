@@ -113,14 +113,8 @@ button {
   text-align: center;
 }
 .list-sctn-two {
-  width: 1128px;
-  height: 104px;
   display: flex;
   flex-direction: row;
-  margin-left: 156px;
-  margin-top: 120xp;
-  margin-right: 156px;
-  margin-bottom: 120px;
   gap: 24px;
 }
 .list-scnd {
