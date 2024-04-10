@@ -157,6 +157,9 @@ h2 {
   line-height: 1.11;
   text-transform: capitalize;
 }
+.list-thrd1 {
+  width: calc((100% - 48px) / 3);
+}
 .main-thrd {
   font-size: 36px;
   line-height: 1.11;
