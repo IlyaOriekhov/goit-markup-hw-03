@@ -196,7 +196,7 @@ img {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   width: 1440px;
-  height: 72px;
+
   display: flex;
   align-items: center;
 }
@@ -220,12 +220,18 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-left: 76px;
-  margin-top: 24px;
-  margin-bottom: 24px;
   padding: 24px 0;
 }
 .all-contacts {
   font-style: normal;
   display: flex;
+  gap: 40px;
+  flex-direction: row;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-top: 24px;
+  margin-bottom: 24px;
   gap: 40px;
 }
