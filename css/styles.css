@@ -122,7 +122,6 @@ button {
   margin-right: 156px;
   margin-bottom: 120px;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 .list-scnd {
   font-weight: 500;
@@ -133,6 +132,9 @@ button {
   display: flex;
   gap: 24px;
   margin-bottom: 8px;
+}
+.list-scnd-title {
+  flex-basis: calc((100% - 72px) / 4);
 }
 .para-scnd {
   line-height: 1.5;
