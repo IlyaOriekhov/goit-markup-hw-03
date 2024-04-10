@@ -133,8 +133,8 @@ button {
   gap: 24px;
   margin-bottom: 8px;
 }
-.list-scnd-title {
-  width: calc((100% - 3 * 24px) / 4);
+.list-sctn-two .list-scnd-title {
+  width: calc((100% - 72px) / 4);
 }
 .para-scnd {
   line-height: 1.5;
@@ -167,7 +167,7 @@ h2 {
   display: flex;
   gap: 24px;
 }
-.our-team-list {
+.team-list .our-team-list {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -209,7 +209,7 @@ h2 {
   column-gap: 24px;
   row-gap: 48px;
 }
-.list-frth {
+.portfolio-list .list-frth {
   width: calc((100% - 48px) / 3);
 }
 .img-frth {
