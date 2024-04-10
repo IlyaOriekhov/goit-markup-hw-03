@@ -134,7 +134,7 @@ button {
   margin-bottom: 8px;
 }
 .list-scnd-title {
-  width: calc((100%-72px) / 4);
+  width: calc((100%-3 * 24px) / 4);
 }
 .para-scnd {
   line-height: 1.5;
