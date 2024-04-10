@@ -112,12 +112,29 @@ button {
 .section-two > p {
   text-align: center;
 }
+.list-sctn-two {
+  width: 1128px;
+  height: 104px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 156px;
+  margin-top: 120xp;
+  margin-right: 156px;
+  margin-bottom: 120px;
+  gap: 24px;
+}
 .list-scnd {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 8px;
+}
+.list-scnd-title {
+  width: calc((100% - 72px) / 4);
 }
 .para-scnd {
   line-height: 1.5;
