@@ -226,17 +226,6 @@ img {
 }
 .all-contacts {
   font-style: normal;
-}
-.contacts {
   display: flex;
-  flex-direction: row;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-left: 332px;
-  margin-right: 156px;
   gap: 40px;
 }
