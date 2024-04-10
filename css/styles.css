@@ -1,0 +1,157 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+  text-align: center;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.accent {
+  color: #2e2f42;
+}
+.head-links {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.navi-first {
+  color: #2e2f42;
+}
+.navi-first:hover,
+.navi-first:focus {
+  color: #404bbf;
+}
+.address-links {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.info {
+  color: #434455;
+}
+.info:hover,
+.info:focus {
+  color: #404bbf;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.section-one {
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  background-color: #2e2f42;
+}
+.main-head {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
+}
+button {
+  background: #4d5ae5;
+}
+.section-two > p {
+  text-align: center;
+}
+.list-scnd {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.para-scnd {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.section-three {
+  background-color: #f4f4fd;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.list-thrd {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+.main-thrd {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+.list-thrd {
+  background-color: #ffffff;
+}
+.names-thrd {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.para-thrd {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.main-frth {
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+.img-frth {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.para-frth {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.end-chapter {
+  background-color: #2e2f42;
+}
+.accentt {
+  color: #f4f4fd;
+}
+.para-end {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
