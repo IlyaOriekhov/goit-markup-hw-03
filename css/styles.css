@@ -134,7 +134,7 @@ button {
   margin-bottom: 8px;
 }
 .list-scnd-title {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .para-scnd {
   line-height: 1.5;
@@ -142,6 +142,7 @@ button {
 }
 .section-three {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 h2 {
   font-weight: 700;
@@ -160,9 +161,16 @@ h2 {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 .list-thrd {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .names-thrd {
   font-weight: 500;
@@ -170,11 +178,14 @@ h2 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .para-thrd {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .main-frth {
   line-height: 1.11;
@@ -276,4 +287,7 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.team-name {
+  padding: 32px 0;
 }
