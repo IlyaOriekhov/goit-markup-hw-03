@@ -223,15 +223,6 @@ img {
   padding: 24px 0;
 }
 .all-contacts {
-  font-style: normal;
   display: flex;
-  gap: 40px;
-  flex-direction: row;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-top: 24px;
-  margin-bottom: 24px;
   gap: 40px;
 }
