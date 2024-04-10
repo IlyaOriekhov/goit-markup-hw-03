@@ -196,7 +196,6 @@ img {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   width: 1440px;
-
   display: flex;
   align-items: center;
 }
@@ -225,4 +224,15 @@ img {
 .all-contacts {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-left: 332px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 156px;
+  flex-direction: row;
 }
