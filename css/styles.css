@@ -154,7 +154,7 @@ img {
   color: #fff;
   background-color: #2e2f42;
   padding: 188px 0;
-  width: 1440px;
+  width: 1158px;
 }
 .main-head {
   font-size: 56px;
@@ -226,7 +226,7 @@ button {
 }
 
 .list-scnd-title {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .para-scnd {
