@@ -36,6 +36,7 @@ img {
 .container {
   max-width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 /*HEAD+NAVI*/
@@ -226,7 +227,7 @@ button {
 }
 
 .list-scnd-title {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .para-scnd {
