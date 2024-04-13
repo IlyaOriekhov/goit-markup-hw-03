@@ -9,6 +9,7 @@ body {
   background-color: #ffffff;
   color: #434455;
   text-align: center;
+  align-content: center;
 }
 
 a {
@@ -34,6 +35,9 @@ h6 {
 img {
   display: block;
   max-width: 100%;
+}
+button {
+  cursor: pointer;
 }
 
 .container {
@@ -65,10 +69,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
-  margin-left: 156px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-right: 76px;
 }
 .accent {
   color: #2e2f42;
@@ -88,11 +89,15 @@ img {
   align-items: center;
   flex-direction: row;
   gap: 40px;
+  justify-content: flex-start;
+  margin: auto;
 }
 
 .navigation {
   display: flex;
   align-items: center;
+  margin: auto;
+  margin-left: 15px;
 }
 
 .navitem {
@@ -101,13 +106,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-left: 76px;
-  padding: 24px 0;
 }
 
 .navi-first {
   color: #2e2f42;
-  padding: 24px 0;
 }
 .navi-first:hover,
 .navi-first:focus {
@@ -135,10 +137,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-left: 332px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-right: 156px;
   flex-direction: row;
 }
 
@@ -158,13 +156,22 @@ img {
   color: #fff;
   background-color: #2e2f42;
   padding: 188px 0;
-  width: 1158px;
+  align-items: center;
+  margin: 0 auto;
+  height: 600;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .main-head {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  text-align: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: auto;
 }
 .btn {
   font-family: "Roboto", sans-serif;
@@ -179,6 +186,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 48px auto;
 }
 .btn:hover,
 .btn:focus {
@@ -236,6 +244,7 @@ button {
 .para-scnd {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: left;
 }
 
 /*SECTION 3*/
@@ -252,12 +261,6 @@ h2 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-}
-
-.list-thrd {
-  font-size: 36px;
-  line-height: 1.11;
-  text-transform: capitalize;
 }
 
 .main-thrd {
@@ -280,6 +283,8 @@ h2 {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
+  line-height: 1.11;
+  text-transform: capitalize;
 }
 
 .names-thrd {
@@ -348,6 +353,7 @@ h2 {
 .end-chapter {
   background-color: #2e2f42;
   padding: 100px 0;
+  text-align: left;
 }
 
 .accentt {
@@ -358,9 +364,7 @@ h2 {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-
-.logo {
-  display: inline-block;
-  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  width: 264px;
 }
